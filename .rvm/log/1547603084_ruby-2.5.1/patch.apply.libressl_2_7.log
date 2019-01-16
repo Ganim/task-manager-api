@@ -1,0 +1,10 @@
+[2019-01-16 01:44:52] __rvm_patch
+__rvm_patch () 
+{ 
+    \patch "$@" || return $?
+}
+current path: /home/vagrant/.rvm/src/ruby-2.5.1
+PATH=/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vagrant/.rvm/bin
+command(8): __rvm_patch -F 25 -p1 -N -f -i /home/vagrant/.rvm/patches/ruby/2.5.1/libressl_2_7.patch
++++ patch -F 25 -p1 -N -f -i /home/vagrant/.rvm/patches/ruby/2.5.1/libressl_2_7.patch
+patching file ext/openssl/extconf.rb
